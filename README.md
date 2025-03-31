@@ -97,7 +97,7 @@
 
 #### INSERT CONTACT REQUEST
 
-![Captura de pantalla del hack 4 (INSERT CONTACT REQUEST)](./assets/img/captura-hack-4-contact-request.PNG)
+![Captura de pantalla del hack 4 (INSERT CONTACT REQUEST)](./assets/img/captura-hack-4-insert-contact-request.PNG)
 
     insert into contact_request (id_email, id_country, id_priority, name, detail, physical_address)
       VALUES ('foo@example.com', 1, 1, 'foo', 'Problema urgente','Address one'),
@@ -108,7 +108,7 @@
 
 #### DELETE
 
-![Captura de pantalla del hack 4 (DELETE FROM CONTACT REQUEST)](./assets/img/captura-hack-4-contact-request.PNG)
+![Captura de pantalla del hack 4 (DELETE FROM CONTACT REQUEST)](./assets/img/captura-hack-4-delete.PNG)
 
     delete from contact_request where id_email = 'qux@example.com'
     SELECT * from contact_request
